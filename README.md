@@ -1,22 +1,33 @@
-# AI in Robotics: Autonomous Pac-Man Player
+# Autonomous Pac-Man AI using Machine Learning
 
-This repository contains the code and resources for our project in the *Artificial Intelligence in Robotics* course. The goal of this project is to train an AI model that can autonomously play and win the classic retro game **Pac-Man**.
+This project transforms the classic Pac-Man game by applying machine learning methods to enhance the AI agent’s ability to avoid ghosts and efficiently collect pellets.
 
-## Project Overview
+## Project Summary
 
-We use a Python implementation of Pac-Man combined with machine learning techniques to train an agent capable of navigating the maze, avoiding ghosts, and maximizing the score without human intervention.
+We successfully implemented a **Q-Learning framework** that allows the AI agent to learn optimal strategies through interaction with the game environment. The agent progressively improves by responding to a reward system, exploring the maze, and making better decisions over time.
 
-## Key Features
+Key features include:
 
-- Custom OpenAI Gym environment based on Pac-Man
-- Reinforcement learning models to learn optimal gameplay strategies
-- Training scripts and evaluation tools to measure AI performance
-- Visualization of game states and AI decisions
+- A Q-table based AI that learns to navigate dynamic obstacles (ghosts) and maximize pellet collection.
+- Visualization tools integrated from the *Free Games* Python library to track AI behavior and game state.
+- The game runs locally using the *turtle* graphics module, with simulations executed via Anaconda Prompt.
+- Test code evaluates the agent’s performance by using the trained Q-table model to assess progress and success.
+- Currently extending the project with a neural network implementation to further improve AI performance beyond traditional Q-Learning.
 
-## How to Run
+## Challenge Addressed
 
-1. Clone this repo
-2. Install dependencies (e.g., Pygame, Gym, PyTorch)
-3. Run the training script:
-   ```bash
-   python train_pacman.py
+Learning in dynamic, uncertain environments with obstacles and rewards — training an AI agent to make increasingly optimal decisions autonomously.
+
+## Technologies Used
+
+- Python
+- Turtle graphics (for game visualization)
+- Anaconda (environment management)
+- Q-Learning reinforcement learning algorithm
+- Free Games library (for visualization)
+- Neural networks (in development)
+
+---
+
+This project demonstrates how reinforcement learning methods can be applied to classic games, offering insights into AI decision-making in complex, changing environments.
+
