@@ -1,16 +1,22 @@
-# Nerfies
+# AI in Robotics: Autonomous Pac-Man Player
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This repository contains the code and resources for our project in the *Artificial Intelligence in Robotics* course. The goal of this project is to train an AI model that can autonomously play and win the classic retro game **Pac-Man**.
 
-If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}
-```
+## Project Overview
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+We use a Python implementation of Pac-Man combined with machine learning techniques to train an agent capable of navigating the maze, avoiding ghosts, and maximizing the score without human intervention.
+
+## Key Features
+
+- Custom OpenAI Gym environment based on Pac-Man
+- Reinforcement learning models to learn optimal gameplay strategies
+- Training scripts and evaluation tools to measure AI performance
+- Visualization of game states and AI decisions
+
+## How to Run
+
+1. Clone this repo
+2. Install dependencies (e.g., Pygame, Gym, PyTorch)
+3. Run the training script:
+   ```bash
+   python train_pacman.py
